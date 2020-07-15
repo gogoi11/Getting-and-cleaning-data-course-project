@@ -1,7 +1,7 @@
 #My script requires the dplyr package (1.0.0 or newer)
 library(dplyr)
 #Before running, set a new working directory.
-setwd("C:/Doctorado/Coursera material/Getting and Cleaning Data course/Course Project")
+setwd(getwd())
 #Download, unzip data and set working directory:
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(url,destfile = "samsungdata.zip")
