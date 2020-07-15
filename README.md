@@ -29,7 +29,7 @@ This repo contains the following files:
 
 * `CodeBook.md` describes the data structure, variables and transformations.
 
-* `run_analysis.R` is an R script which creates the `tidy_data.txt` file. Executing this script should create the `tidy_data.txt` in your working directory. For more information about the transformations to create this file see the Script section below.
+* `run_analysis.R` is an R script which creates the `tidy_data.txt` file. Executing this script should create the `tidy_data.txt` inside the `UCI HAR DATASET` folder created when the data was unzipped. The script downloads and unzips the data automatically.
 \
 R version 4.0.0 (2020-04-24)  
 Packages used:
@@ -45,7 +45,8 @@ R version 4.0.0 (2020-04-24)
 Packages used:
 `Dplyr` version 1.0.0
 
-1. The train and test dataset are created from the files `subject_train.txt`,`X_train.txt`,`y_train.txt`,`subject_test.txt`,`X_test.txt`,`y_test.txt`.
+1a. Data is downloaded and extracted in our working directory.
+1b. The train and test dataset are created from the files `subject_train.txt`,`X_train.txt`,`y_train.txt`,`subject_test.txt`,`X_test.txt`,`y_test.txt`.
 2. The train and test dataset were merged into the `full_data` dataset. As the number of columns was identical in both datasets, the merging of the dataset was done by stacking.
 
 3. Named the variables using the `features.txt` file.
