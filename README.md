@@ -60,5 +60,4 @@ Packages used:
 	* `Acc`, `Gyro`, `Mag`, `mean`, and `std` were replaced with `Accelerometer`, `Gyroscope`, `Magnitude`, `Mean`, and `StandardDeviation` respectively.
 	
 7. From the `filtered_data` dataset created a new tidy dataset `averaged_data` with the average of each variable for every subject and activity. A `tidy_data.txt` file is created using the `averaged_data`.  
-\
 
