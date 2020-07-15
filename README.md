@@ -46,7 +46,9 @@ Packages used:
 `Dplyr` version 1.0.0
 
 1a. Data is downloaded and extracted in our working directory.
+
 1b. The train and test dataset are created from the files `subject_train.txt`,`X_train.txt`,`y_train.txt`,`subject_test.txt`,`X_test.txt`,`y_test.txt`.
+
 2. The train and test dataset were merged into the `full_data` dataset. As the number of columns was identical in both datasets, the merging of the dataset was done by stacking.
 
 3. Named the variables using the `features.txt` file.
